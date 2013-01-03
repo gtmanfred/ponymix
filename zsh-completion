@@ -6,6 +6,7 @@ typeset -U _commands
 _common_command(){
     _commands+=(
         'list:list available dsevices'
+        'list-cards:list available cards'
         'get-volume:get volume for device'
         'set-volume:set volume for device:integer'
         'get-balance:get balance for device'
